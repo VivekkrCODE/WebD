@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color:rgb(50, 49, 49);
+    background-size: cover;
+}
+#page1{
+    position: absolute;;
+    height: 100%;
+    width: 100%;    
+}
+#main2{
+    position: absolute;
+    top: 14px;
+    height: 95%;
+    width: 80%;
+    left: 10%;
+    background-color:gray;
+    border-radius: 20px;
+    overflow: hidden;
+}
+#main2>ul{
+    position: absolute;
+    top: 0%;
+    left: 36%;
+    font-size: larger;  
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 30vw;
+    height: 10vh;
+    z-index: 99;
+}
+#main2>ul>a{
+    color: white;
+    text-decoration: none;
+    transition-duration: .7s;
+}
+
+#main2>ul>a:hover{
+    color: rgb(255, 185, 54);
+    z-index: 62;
+    font-size: x-large;
+    
+}
+
+#main2>h1{
+    position: absolute;
+    font-size: xx-large;
+    top: 3%;
+    left: 3%;
+    color: rgb(253, 190, 32);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#search{
+    position: absolute;
+    height: 3%;
+    width: 19.5%;
+    background-color: white;
+    top: 69%;
+    left: 15%;   
+    overflow: hidden;
+    border-radius: 5px;
+}
+#search>h1{
+    position: absolute;
+    top: 5%;
+    left: 10%;
+    font-size: medium;
+    color: black;
+    opacity: .600;
+}
+#search>#go{
+    position: absolute;
+    background-color: rgb(107, 240, 240);
+    top: 0%;
+    right: 0%;
+    height: 100%;
+    width: 25%;
+    border-top-left-radius: 20px;
+    
+}
+#go>:hover{
+    background-color: rgb(107, 240, 240);
+    z-index: 88;
+    font-size:larger;
+    transition-duration: .5s;
+}
+#go>h3{
+    position: absolute;
+    left: 30%;
+}
+#main3{
+ position: absolute;
+ right: 0%;
+ top: 0%;
+ height: 100%;
+ width: 30%;
+ background-color: black;
+ overflow: hidden; 
+  
+}
+#image{
+    position: absolute;
+    height: 78%;
+    width: 60%;
+    background-size: 666px;
+    top: 25%;
+   left: 45%;
+   background-image: url(/webd/photos/c659224ac03dd69b019a49acf4f0061f-removebg-preview.png);
+   overflow: hidden;
+   z-index: 55;
+   background-repeat: no-repeat;
+}
+#main2>h2{
+    position: absolute;
+    font-size: 100px;   
+    top: 14%;
+    left: 5%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    opacity: .203;
+}
+#main2>h3{
+    position: absolute;
+    font-size: 110px;
+    top: 27%;
+    left: 5%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+   color: rgb(31, 30, 30);
+   opacity: .850;
+}
+#main3>h3{
+position: absolute;
+color:white;
+right: 4%;
+font-size: 1.3vw;
+top: 2%;
+text-align: center;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#page2{
+    position: relative;
+    top: 100%;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(50, 49, 49);             
+
+}
+/* #animation{
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    border: 1px solid wheat;
+    background-image: url("https://images.unsplash.com/photo-1682687981974-c5ef2111640c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80");
+    background-size: cover;
+    transition: all 1s;
+    
+}
+#animation{
+   animation: move 5s linear infinite both;
+}
+@keyframes move {
+     50%{
+        transform:  translateX(1220px) ;
+     }
+     100%{
+        transform:  translateX(0px);
+     }
+} */
+#page2>h1{
+    position:absolute;
+    left: 35%;
+    font-size: xxx-large;
+    color: rgba(0, 0, 0, 0.825);
+}
+#page2>#box1{
+    position: absolute;
+    background-color: black;
+    left: 0%;
+    top: 10%;
+    height: 60vh;
+    width: 98.8vw;
+}
+#animation{
+    position: absolute;
+    height: 60vh;;
+    width: 35vw;
+    background-image: url(https://i.pinimg.com/236x/90/13/11/901311eaf0375e728e7e08a4ae2b511f.jpg);
+    background-size: cover;
+    transition: all 1s;
+}
+#animation{
+    animation: move 5s infinite linear;
+}
+@keyframes move{
+    50%{
+        transform: translateX(66vw);
+    }100%{
+        transform: translateX(0vw);
+    }
+}
